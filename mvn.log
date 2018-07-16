@@ -1,0 +1,741 @@
+Apache Maven 3.5.4 (1edded0938998edf8bf061f1ceb3cfdeccf443fe; 2018-06-17T14:33:14-04:00)
+Maven home: /usr/local/Cellar/maven/3.5.4/libexec
+Java version: 1.8.0_144, vendor: Oracle Corporation, runtime: /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "mac os x", version: "10.13.5", arch: "x86_64", family: "mac"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: plain
+[DEBUG] Reading global settings from /usr/local/Cellar/maven/3.5.4/libexec/conf/settings.xml
+[DEBUG] Reading user settings from /Users/kunli/.m2/settings.xml
+[DEBUG] Reading global toolchains from /usr/local/Cellar/maven/3.5.4/libexec/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /Users/kunli/.m2/toolchains.xml
+[DEBUG] Using local repository at /Users/kunli/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /Users/kunli/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=813663, ConflictMarker.markTime=445370, ConflictMarker.nodeCount=98, ConflictIdSorter.graphTime=490830, ConflictIdSorter.topsortTime=262625, ConflictIdSorter.conflictIdCount=35, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=4659462, ConflictResolver.conflictItemCount=87, DefaultDependencyCollector.collectTime=278580730, DefaultDependencyCollector.transformTime=8309532}
+[DEBUG] org.mule.tools.maven:mule-app-maven-plugin:jar:1.2:
+[DEBUG]    org.jfrog.maven.annomojo:maven-plugin-tools-anno:jar:1.4.0:compile
+[DEBUG]       org.jfrog.maven.annomojo:maven-plugin-anno:jar:1.4.0:compile
+[DEBUG]       org.apache.maven.plugin-tools:maven-plugin-tools-api:jar:2.6:compile
+[DEBUG]          org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]             org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]          jtidy:jtidy:jar:4aug2000r7-dev:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:2.0.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-io:jar:2.0.1:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]          commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]          org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.12:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.slf4j:slf4j-simple:jar:1.6.6:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.6.6:compile
+[DEBUG]    org.mule.tools:mule-artifact-archiver:jar:1.1:compile
+[DEBUG] Created new class realm extension>org.mule.tools.maven:mule-app-maven-plugin:1.2
+[DEBUG] Importing foreign packages into class realm extension>org.mule.tools.maven:mule-app-maven-plugin:1.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm extension>org.mule.tools.maven:mule-app-maven-plugin:1.2
+[DEBUG]   Included: org.mule.tools.maven:mule-app-maven-plugin:jar:1.2
+[DEBUG]   Included: org.jfrog.maven.annomojo:maven-plugin-tools-anno:jar:1.4.0
+[DEBUG]   Included: org.jfrog.maven.annomojo:maven-plugin-anno:jar:1.4.0
+[DEBUG]   Included: org.apache.maven.plugin-tools:maven-plugin-tools-api:jar:2.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: jtidy:jtidy:jar:4aug2000r7-dev
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.0.1
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.0.1
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.0
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.12
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.slf4j:slf4j-simple:jar:1.6.6
+[DEBUG]   Included: org.mule.tools:mule-artifact-archiver:jar:1.1
+[DEBUG] Extension realms for project com.mulesoft.training:maven-project:mule:1.0.0-SNAPSHOT: [ClassRealm[extension>org.mule.tools.maven:mule-app-maven-plugin:1.2, parent: sun.misc.Launcher$AppClassLoader@55f96302]]
+[DEBUG] Created new class realm project>com.mulesoft.training:maven-project:1.0.0-SNAPSHOT
+[DEBUG] Populating class realm project>com.mulesoft.training:maven-project:1.0.0-SNAPSHOT
+[DEBUG] Looking up lifecycle mappings for packaging mule from ClassRealm[project>com.mulesoft.training:maven-project:1.0.0-SNAPSHOT, parent: ClassRealm[maven.api, parent: null]]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.mulesoft.training:maven-project:mule:1.0.0-SNAPSHOT
+[DEBUG] Tasks:   [compile]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] ----------------< com.mulesoft.training:maven-project >-----------------
+[INFO] Building Mule maven-project Application 1.0.0-SNAPSHOT
+[INFO] --------------------------------[ mule ]--------------------------------
+[DEBUG] Failure to find org.apache.maven.plugins:maven-resources-plugin/maven-metadata.xml in http://repository.mulesoft.org/releases/ was cached in the local repository, resolution will not be reattempted until the update interval of mulesoft-release has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-resources-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-resources-plugin to 3.0.2 from repository /Users/kunli/.m2/repository (enhanced)
+[DEBUG] Failure to find org.apache.maven.plugins:maven-compiler-plugin/maven-metadata.xml in http://repository.mulesoft.org/releases/ was cached in the local repository, resolution will not be reattempted until the update interval of mulesoft-release has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-compiler-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-compiler-plugin to 3.6.1 from repository /Users/kunli/.m2/repository (enhanced)
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-surefire-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-surefire-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-surefire-plugin to 2.19.1 from repository /Users/kunli/.m2/repository (enhanced)
+[DEBUG] Could not find metadata org.apache.maven.plugins:maven-install-plugin/maven-metadata.xml in local (/Users/kunli/.m2/repository)
+[DEBUG] Failure to find org.apache.maven.plugins:maven-install-plugin/maven-metadata.xml in http://repository.mulesoft.org/releases/ was cached in the local repository, resolution will not be reattempted until the update interval of mulesoft-release has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-install-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-install-plugin to 2.5.2 from repository central (https://repo.maven.apache.org/maven2, default, releases)
+[DEBUG] Could not find metadata org.apache.maven.plugins:maven-deploy-plugin/maven-metadata.xml in local (/Users/kunli/.m2/repository)
+[DEBUG] Failure to find org.apache.maven.plugins:maven-deploy-plugin/maven-metadata.xml in http://repository.mulesoft.org/releases/ was cached in the local repository, resolution will not be reattempted until the update interval of mulesoft-release has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-deploy-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-deploy-plugin to 2.8.2 from repository central (https://repo.maven.apache.org/maven2, default, releases)
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.mulesoft.training:maven-project:1.0.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile]
+[DEBUG] Repositories (dependencies): [Central (http://repo1.maven.org/maven2/, default, releases+snapshots), mulesoft-releases (http://repository.mulesoft.org/releases/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [mulesoft-release (http://repository.mulesoft.org/releases/, default, releases), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.mule.tools.maven:mule-app-maven-plugin:1.2:attach-test-resources (default-attach-test-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <apiDirectory>${basedir}/src/main/api</apiDirectory>
+  <appDirectory>${basedir}/src/main/app</appDirectory>
+  <finalName default-value="${project.build.finalName}">${appName}</finalName>
+  <mappingsDirectory>${basedir}/mappings</mappingsDirectory>
+  <outputDirectory>${project.build.directory}</outputDirectory>
+  <project>${project}</project>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.codehaus.mojo:build-helper-maven-plugin:1.7:add-resource (add-resource)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <project>${project}</project>
+  <resources>
+    <resource>
+      <directory>src/main/app/</directory>
+    </resource>
+    <resource>
+      <directory>src/main/api/</directory>
+    </resource>
+    <resource>
+      <directory>mappings/</directory>
+    </resource>
+  </resources>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.0.2:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.resources.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.mule.tools.maven:mule-app-maven-plugin:1.2:filter-resources (default-filter-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <apiDirectory>${basedir}/src/main/api</apiDirectory>
+  <appDirectory>${basedir}/src/main/app</appDirectory>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeWindowsPaths default-value="true"/>
+  <filterAppDirectory default-value="false"/>
+  <filters default-value="${project.build.filters}"/>
+  <finalName default-value="${project.build.finalName}">${appName}</finalName>
+  <mappingsDirectory>${basedir}/mappings</mappingsDirectory>
+  <outputDirectory>${project.build.directory}</outputDirectory>
+  <project>${project}</project>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.6.1:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <project default-value="${project}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=2122367, ConflictMarker.markTime=554916, ConflictMarker.nodeCount=450, ConflictIdSorter.graphTime=884818, ConflictIdSorter.topsortTime=130038, ConflictIdSorter.conflictIdCount=156, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=15645688, ConflictResolver.conflictItemCount=313, DefaultDependencyCollector.collectTime=678204471, DefaultDependencyCollector.transformTime=19354313}
+[DEBUG] com.mulesoft.training:maven-project:mule:1.0.0-SNAPSHOT
+[DEBUG]    com.mulesoft.muleesb:mule-core-ee:jar:3.9.0:provided
+[DEBUG]       org.mule:mule-core:jar:3.9.0:provided
+[DEBUG]          org.mule.extensions:mule-extensions-api:jar:1.0.0-alpha-1:provided
+[DEBUG]          commons-beanutils:commons-beanutils:jar:1.9.3:provided
+[DEBUG]          com.github.stephenc.eaio-uuid:uuid:jar:3.4.0:provided
+[DEBUG]             com.github.stephenc.eaio-grabbag:grabbag:jar:1.8.1:provided
+[DEBUG]          commons-cli:commons-cli:jar:1.2:provided
+[DEBUG]          commons-collections:commons-collections:jar:3.2.2:provided
+[DEBUG]          commons-io:commons-io:jar:2.4:provided
+[DEBUG]          commons-lang:commons-lang:jar:2.4:provided
+[DEBUG]          org.apache.commons:commons-lang3:jar:3.6:provided
+[DEBUG]          commons-pool:commons-pool:jar:1.6:provided
+[DEBUG]          javax.transaction:javax.transaction-api:jar:1.2:provided
+[DEBUG]          org.apache.geronimo.specs:geronimo-j2ee-connector_1.5_spec:jar:2.0.0:provided
+[DEBUG]          javax.inject:javax.inject:jar:1:provided
+[DEBUG]          com.lmax:disruptor:jar:3.3.0:provided
+[DEBUG]          org.slf4j:slf4j-api:jar:1.7.24:provided
+[DEBUG]          org.apache.logging.log4j:log4j-api:jar:2.8.2:provided
+[DEBUG]          org.apache.logging.log4j:log4j-core:jar:2.8.2:provided
+[DEBUG]          org.apache.logging.log4j:log4j-slf4j-impl:jar:2.8.2:provided
+[DEBUG]          org.apache.logging.log4j:log4j-1.2-api:jar:2.8.2:provided
+[DEBUG]          org.apache.logging.log4j:log4j-jcl:jar:2.8.2:provided
+[DEBUG]             commons-logging:commons-logging:jar:1.2:provided
+[DEBUG]          org.slf4j:jcl-over-slf4j:jar:1.7.24:provided
+[DEBUG]          org.apache.logging.log4j:log4j-jul:jar:2.8.2:provided
+[DEBUG]          asm:asm:jar:3.1:provided
+[DEBUG]          asm:asm-commons:jar:3.1:provided
+[DEBUG]             asm:asm-tree:jar:3.1:provided
+[DEBUG]          org.mule.mvel:mule-mvel2:jar:2.1.9-MULE-012:provided
+[DEBUG]          org.jgrapht:jgrapht-jdk1.5:jar:0.7.3:provided
+[DEBUG]          org.mule.common:mule-common:jar:3.9.0:provided
+[DEBUG]             org.mulesoft.xmlbeans:xmlbeans:jar:2.6.3:provided
+[DEBUG]             javax.xml.stream:stax-api:jar:1.0-2:provided
+[DEBUG]             org.json:json:jar:20140107:provided
+[DEBUG]             com.fasterxml.jackson.core:jackson-core:jar:2.8.9:provided
+[DEBUG]             com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:provided
+[DEBUG]                com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:provided
+[DEBUG]             org.antlr:antlr-runtime:jar:3.5.2:provided
+[DEBUG]       com.mulesoft.licm:licm:jar:1.2.0:provided
+[DEBUG]          de.schlichtherle:truelicense:jar:1.29:provided
+[DEBUG]          de.schlichtherle:truexml:jar:1.29:provided
+[DEBUG]          opensymphony:propertyset:jar:1.3:provided
+[DEBUG]          opensymphony:oscore:jar:2.2.4:provided
+[DEBUG]       org.aspectj:aspectjrt:jar:1.8.5:provided
+[DEBUG]    com.mulesoft.muleesb.modules:mule-module-spring-config-ee:jar:3.9.0:provided
+[DEBUG]       com.mulesoft.muleesb.modules:mule-module-multi-tx-ee:jar:3.9.0:provided
+[DEBUG]       com.mulesoft.muleesb.modules:mule-module-xa-tx-ee:jar:3.9.0:provided
+[DEBUG]       com.mulesoft.muleesb.modules:mule-module-cache-ee:jar:3.9.0:provided
+[DEBUG]       org.springframework:spring-context:jar:4.1.9.RELEASE:provided
+[DEBUG]          org.springframework:spring-core:jar:4.1.9.RELEASE:provided
+[DEBUG]          org.springframework:spring-expression:jar:4.1.9.RELEASE:provided
+[DEBUG]    org.mule.transports:mule-transport-file:jar:3.9.0:provided
+[DEBUG]    org.mule.transports:mule-transport-http:jar:3.9.0:provided
+[DEBUG]       org.mule.transports:mule-transport-ssl:jar:3.9.0:provided
+[DEBUG]       commons-codec:commons-codec:jar:1.9:provided
+[DEBUG]       commons-httpclient:commons-httpclient:jar:3.1:provided
+[DEBUG]       org.apache.tomcat:coyote:jar:6.0.53:provided
+[DEBUG]          org.apache.tomcat:juli:jar:6.0.53:provided
+[DEBUG]       org.samba.jcifs:jcifs:jar:1.3.3:provided
+[DEBUG]       joda-time:joda-time:jar:2.9.1:provided
+[DEBUG]    com.mulesoft.muleesb.transports:mule-transport-jdbc-ee:jar:3.9.0:provided
+[DEBUG]       org.mule.transports:mule-transport-jdbc:jar:3.9.0:provided
+[DEBUG]          com.experlog:xapool:jar:1.5.0:provided
+[DEBUG]       net.sf.flatpack:flatpack:jar:3.1.1:provided
+[DEBUG]       org.jdom:jdom:jar:1.1.3:provided
+[DEBUG]       dom4j:dom4j:jar:1.6.1:provided
+[DEBUG]    com.mulesoft.muleesb.transports:mule-transport-jms-ee:jar:3.9.0:provided
+[DEBUG]       org.mule.transports:mule-transport-jms:jar:3.9.0:provided
+[DEBUG]          org.apache.geronimo.specs:geronimo-jms_1.1_spec:jar:1.1.1:provided
+[DEBUG]          org.springframework:spring-jms:jar:4.1.9.RELEASE:provided
+[DEBUG]             org.springframework:spring-messaging:jar:4.1.9.RELEASE:provided
+[DEBUG]             org.springframework:spring-tx:jar:4.1.9.RELEASE:provided
+[DEBUG]    org.mule.transports:mule-transport-vm:jar:3.9.0:provided
+[DEBUG]    org.mule.modules:mule-module-scripting:jar:3.9.0:provided
+[DEBUG]       org.springframework:spring-aop:jar:4.1.9.RELEASE:provided
+[DEBUG]          aopalliance:aopalliance:jar:1.0:provided
+[DEBUG]       org.mule.modules:mule-module-builders:jar:3.9.0:provided
+[DEBUG]          org.springframework:spring-web:jar:4.1.9.RELEASE:provided
+[DEBUG]       org.codehaus.groovy:groovy-all:jar:indy:2.4.4:provided
+[DEBUG]       org.python:jython-standalone:jar:2.7.1b3:provided
+[DEBUG]       javax.script:js-engine:jar:jdk14:1.1:provided
+[DEBUG]       org.mozilla:rhino:jar:1.7R4:provided
+[DEBUG]       org.mule.modules:mule-module-scripting-jruby:jar:3.9.0:provided
+[DEBUG]          org.jruby:jruby-core:jar:1.7.27:provided
+[DEBUG]             org.ow2.asm:asm-commons:jar:5.0.3:provided
+[DEBUG]                org.ow2.asm:asm-tree:jar:5.0.3:provided
+[DEBUG]             org.ow2.asm:asm-analysis:jar:5.0.3:provided
+[DEBUG]             org.ow2.asm:asm-util:jar:5.0.3:provided
+[DEBUG]          org.jruby:jruby-stdlib:jar:1.7.27:provided
+[DEBUG]          org.jruby.joni:joni:jar:2.1.9:provided
+[DEBUG]          com.github.jnr:jnr-netdb:jar:1.1.2:provided
+[DEBUG]          com.github.jnr:jnr-enxio:jar:0.9:provided
+[DEBUG]          com.github.jnr:jnr-x86asm:jar:1.0.2:provided
+[DEBUG]          com.github.jnr:jnr-unixsocket:jar:0.8:provided
+[DEBUG]          com.github.jnr:jnr-posix:jar:3.0.27:provided
+[DEBUG]          org.jruby.extras:bytelist:jar:1.0.11:provided
+[DEBUG]          com.github.jnr:jnr-constants:jar:0.9.0:provided
+[DEBUG]          org.jruby.jcodings:jcodings:jar:1.0.16:provided
+[DEBUG]          com.github.jnr:jnr-ffi:jar:2.0.5:provided
+[DEBUG]          com.github.jnr:jffi:jar:1.2.10:provided
+[DEBUG]          com.github.jnr:jffi:jar:native:1.2.10:provided
+[DEBUG]          org.yaml:snakeyaml:jar:1.15:provided
+[DEBUG]          com.jcraft:jzlib:jar:1.1.3:provided
+[DEBUG]          com.headius:invokebinder:jar:1.2:provided
+[DEBUG]          com.headius:options:jar:1.3:provided
+[DEBUG]          com.martiansoftware:nailgun-server:jar:0.9.1:provided
+[DEBUG]          org.jruby:yecht:jar:jruby:1.1:provided
+[DEBUG]    org.mule.modules:mule-module-xml:jar:3.9.0:provided
+[DEBUG]       commons-jxpath:commons-jxpath:jar:1.3:provided
+[DEBUG]       com.thoughtworks.xstream:xstream:jar:1.4.10:provided
+[DEBUG]          xmlpull:xmlpull:jar:1.1.3.1:provided
+[DEBUG]       xpp3:xpp3_min:jar:1.1.3.4.O:provided
+[DEBUG]       org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:provided
+[DEBUG]          org.codehaus.woodstox:stax2-api:jar:3.1.4:provided
+[DEBUG]       jaxen:jaxen:jar:1.1.1:provided
+[DEBUG]          jdom:jdom:jar:1.0:provided
+[DEBUG]       net.java.dev.stax-utils:stax-utils:jar:20080702:provided
+[DEBUG]       net.sf.saxon:Saxon-HE:jar:9.6.0-10:provided
+[DEBUG]       net.sf.saxon:Saxon-HE:jar:xqj:9.6.0-10:provided
+[DEBUG]       javax.xml.xquery:xqj-api:jar:1.0:provided
+[DEBUG]    org.mule.tests:mule-tests-functional:jar:3.9.0:test
+[DEBUG]       org.mule.modules:mule-module-extensions-support:jar:3.9.0:test
+[DEBUG]          org.mule.extensions:mule-extensions-annotations:jar:1.0.0-alpha-1:test
+[DEBUG]       org.springframework:spring-beans:jar:4.1.9.RELEASE:provided
+[DEBUG]       junit:junit:jar:4.12:test
+[DEBUG]       org.hamcrest:hamcrest-library:jar:1.3:test
+[DEBUG]          org.hamcrest:hamcrest-core:jar:1.3:test
+[DEBUG]       commons-net:commons-net:jar:3.5:test
+[DEBUG]       org.apache.ftpserver:ftpserver-core:jar:1.0.6:test
+[DEBUG]          org.apache.mina:mina-core:jar:2.0.4:test
+[DEBUG]       org.apache.ftpserver:ftplet-api:jar:1.0.6:test
+[DEBUG]       org.apache.sshd:sshd-core:jar:1.4.0:test
+[DEBUG]       org.bouncycastle:bcprov-jdk15on:jar:1.56:test
+[DEBUG]       commons-dbutils:commons-dbutils:jar:1.2:provided
+[DEBUG]       org.reflections:reflections:jar:0.9.9:provided
+[DEBUG]       org.mule:mule-core:jar:tests:3.9.0:test
+[DEBUG]       org.mockito:mockito-core:jar:1.10.19:test
+[DEBUG]          org.objenesis:objenesis:jar:2.1:test
+[DEBUG]    org.mule.modules:mule-module-http:jar:3.9.0:provided
+[DEBUG]       org.mule.transports:mule-transport-tcp:jar:3.9.0:provided
+[DEBUG]       org.apache.geronimo.specs:geronimo-servlet_3.0_spec:jar:1.0:provided
+[DEBUG]       org.glassfish.grizzly:grizzly-framework:jar:2.3.33:provided
+[DEBUG]       org.glassfish.grizzly:grizzly-http-server:jar:2.3.33:provided
+[DEBUG]          org.glassfish.grizzly:grizzly-http:jar:2.3.33:provided
+[DEBUG]       org.glassfish.grizzly:connection-pool:jar:2.3.33:provided
+[DEBUG]       javax.mail:mail:jar:1.4.3:provided
+[DEBUG]       org.glassfish.grizzly:grizzly-http-client:jar:1.14:provided
+[DEBUG]       org.glassfish.grizzly:grizzly-websockets:jar:2.3.33:provided
+[DEBUG]       com.google.guava:guava:jar:18.0:provided
+[DEBUG]    org.mule.modules:mule-module-spring-config:jar:3.9.0:provided
+[DEBUG]       org.mule.modules:mule-module-annotations:jar:3.9.0:provided
+[DEBUG]          cglib:cglib-nodep:jar:2.2:provided
+[DEBUG]       cglib:cglib:jar:3.2.2:provided
+[DEBUG]          org.ow2.asm:asm:jar:5.0.4:provided
+[DEBUG]          org.apache.ant:ant:jar:1.9.6:provided
+[DEBUG]             org.apache.ant:ant-launcher:jar:1.9.6:provided
+[INFO] 
+[INFO] --- mule-app-maven-plugin:1.2:attach-test-resources (default-attach-test-resources) @ maven-project ---
+[DEBUG] Configuring mojo org.mule.tools.maven:mule-app-maven-plugin:1.2:attach-test-resources from plugin realm ClassRealm[extension>org.mule.tools.maven:mule-app-maven-plugin:1.2, parent: sun.misc.Launcher$AppClassLoader@55f96302]
+[DEBUG] Configuring mojo 'org.mule.tools.maven:mule-app-maven-plugin:1.2:attach-test-resources' with basic configurator -->
+[DEBUG]   (f) apiDirectory = /Users/kunli/AnypointStudio/workspace/maven-project/src/main/api
+[DEBUG]   (f) appDirectory = /Users/kunli/AnypointStudio/workspace/maven-project/src/main/app
+[DEBUG]   (f) finalName = maven-project-1.0.0-SNAPSHOT
+[DEBUG]   (f) mappingsDirectory = /Users/kunli/AnypointStudio/workspace/maven-project/mappings
+[DEBUG]   (f) outputDirectory = /Users/kunli/AnypointStudio/workspace/maven-project/target
+[DEBUG]   (f) project = MavenProject: com.mulesoft.training:maven-project:1.0.0-SNAPSHOT @ /Users/kunli/AnypointStudio/workspace/maven-project/pom.xml
+[DEBUG] -- end configuration --
+[INFO] attaching test resource /Users/kunli/AnypointStudio/workspace/maven-project/src/main/app
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-resource (add-resource) @ maven-project ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=94742, ConflictMarker.markTime=40600, ConflictMarker.nodeCount=59, ConflictIdSorter.graphTime=151748, ConflictIdSorter.topsortTime=22363, ConflictIdSorter.conflictIdCount=23, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=622837, ConflictResolver.conflictItemCount=59, DefaultDependencyCollector.collectTime=8519658, DefaultDependencyCollector.transformTime=952767}
+[DEBUG] org.codehaus.mojo:build-helper-maven-plugin:jar:1.7:
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.2:test
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.5.8:compile
+[DEBUG] Created new class realm plugin>org.codehaus.mojo:build-helper-maven-plugin:1.7
+[DEBUG] Importing foreign packages into class realm plugin>org.codehaus.mojo:build-helper-maven-plugin:1.7
+[DEBUG]   Imported:  < project>com.mulesoft.training:maven-project:1.0.0-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.codehaus.mojo:build-helper-maven-plugin:1.7
+[DEBUG]   Included: org.codehaus.mojo:build-helper-maven-plugin:jar:1.7
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.8
+[DEBUG] Configuring mojo org.codehaus.mojo:build-helper-maven-plugin:1.7:add-resource from plugin realm ClassRealm[plugin>org.codehaus.mojo:build-helper-maven-plugin:1.7, parent: sun.misc.Launcher$AppClassLoader@55f96302]
+[DEBUG] Configuring mojo 'org.codehaus.mojo:build-helper-maven-plugin:1.7:add-resource' with basic configurator -->
+[DEBUG]   (f) project = MavenProject: com.mulesoft.training:maven-project:1.0.0-SNAPSHOT @ /Users/kunli/AnypointStudio/workspace/maven-project/pom.xml
+[DEBUG]   (s) directory = src/main/app/
+[DEBUG]   (s) directory = src/main/api/
+[DEBUG]   (s) directory = mappings/
+[DEBUG]   (f) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: src/main/app/, PatternSet [includes: {}, excludes: {}]}}, Resource {targetPath: null, filtering: false, FileSet {directory: src/main/api/, PatternSet [includes: {}, excludes: {}]}}, Resource {targetPath: null, filtering: false, FileSet {directory: mappings/, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG] -- end configuration --
+[DEBUG] Added resource: /Users/kunli/AnypointStudio/workspace/maven-project/src/main/app
+[DEBUG] Added resource: /Users/kunli/AnypointStudio/workspace/maven-project/src/main/api
+[DEBUG] Added resource: /Users/kunli/AnypointStudio/workspace/maven-project/mappings
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ maven-project ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=114506, ConflictMarker.markTime=39807, ConflictMarker.nodeCount=68, ConflictIdSorter.graphTime=69941, ConflictIdSorter.topsortTime=26958, ConflictIdSorter.conflictIdCount=28, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=661829, ConflictResolver.conflictItemCount=67, DefaultDependencyCollector.collectTime=112462584, DefaultDependencyCollector.transformTime=962562}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:3.0.2:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.6:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.24:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:3.1.1:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:3.0.0:compile
+[DEBUG]          com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[DEBUG]    commons-io:commons-io:jar:2.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.24:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.0.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.0.2
+[DEBUG]   Imported:  < project>com.mulesoft.training:maven-project:1.0.0-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.0.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:3.0.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.6
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.24
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:3.1.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.0.0
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[DEBUG]   Included: commons-io:commons-io:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.24
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:3.0.2:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:3.0.2, parent: sun.misc.Launcher$AppClassLoader@55f96302]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:3.0.2:resources' with basic configurator -->
+[DEBUG]   (f) addDefaultExcludes = true
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (f) fileNameFiltering = false
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /Users/kunli/AnypointStudio/workspace/maven-project/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.mulesoft.training:maven-project:1.0.0-SNAPSHOT @ /Users/kunli/AnypointStudio/workspace/maven-project/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /Users/kunli/AnypointStudio/workspace/maven-project/src/main/resources, PatternSet [includes: {}, excludes: {}]}}, Resource {targetPath: null, filtering: false, FileSet {directory: /Users/kunli/AnypointStudio/workspace/maven-project/src/main/app, PatternSet [includes: {}, excludes: {}]}}, Resource {targetPath: null, filtering: false, FileSet {directory: /Users/kunli/AnypointStudio/workspace/maven-project/src/main/api, PatternSet [includes: {}, excludes: {}]}}, Resource {targetPath: null, filtering: false, FileSet {directory: /Users/kunli/AnypointStudio/workspace/maven-project/mappings, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@2e3cdec2
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, sun.java.launcher=SUN_STANDARD, env.XPC_SERVICE_NAME=0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.SECURITYSESSIONID=186a8, env.COLORFGBG=7;0, os.name=Mac OS X, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/classes, env.TMPDIR=/var/folders/w2/xrmgy0q952l966l08vk2ythc0000gn/T/, env.PWD=/Users/kunli/AnypointStudio/workspace/maven-project, env.LANG=en_US.UTF-8, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_144-b01, env.Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.ZTcAFriVdK/Render, project.build.sourceEncoding=UTF-8, user.name=kunli, maven.build.version=Apache Maven 3.5.4 (1edded0938998edf8bf061f1ceb3cfdeccf443fe; 2018-06-17T14:33:14-04:00), env.USER=kunli, env.SHELL=/bin/bash, env.__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0, env.PATH=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin, user.language=en, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib, classworlds.conf=/usr/local/Cellar/maven/3.5.4/libexec/bin/m2.conf, env.XPC_FLAGS=0x0, java.version=1.8.0_144, user.timezone=, project.baseUri=file:/Users/kunli/AnypointStudio/workspace/maven-project/, maven.build.timestamp=2018-07-16T19:54:47Z, sun.arch.data.model=64, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/endorsed, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, env.ITERM_SESSION_ID=w0t0p0:3D20C438-C520-415D-B9A2-D8DE8FCF83BD, file.encoding.pkg=sun.io, env.SHLVL=1, file.separator=/, java.specification.name=Java Platform API Specification, maven.conf=/usr/local/Cellar/maven/3.5.4/libexec/conf, java.class.version=52.0, user.country=US, java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre, java.vm.info=mixed mode, env.LOGNAME=kunli, os.version=10.13.5, env.TERM_PROGRAM_VERSION=3.1.7, project.reporting.outputEncoding=UTF-8, path.separator=:, java.vm.version=25.144-b01, mule.version=3.9.0, env.JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, env.TERM=xterm-256color, sun.io.unicode.encoding=UnicodeBig, awt.toolkit=sun.lwawt.macosx.LWCToolkit, env.JAVA_MAIN_CLASS_27802=org.codehaus.plexus.classworlds.launcher.Launcher, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, user.home=/Users/kunli, env.OLDPWD=/Users/kunli/AnypointStudio/workspace/maven-project, java.specification.vendor=Oracle Corporation, env.TERM_PROGRAM=iTerm.app, library.jansi.path=/usr/local/Cellar/maven/3.5.4/libexec/lib/jansi-native, java.library.path=/Users/kunli/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vendor.url=http://java.oracle.com/, env.MAVEN_CMD_LINE_ARGS= --debug --log-file mvn.log compile, java.vm.vendor=Oracle Corporation, gopherProxySet=false, maven.home=/usr/local/Cellar/maven/3.5.4/libexec, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher --debug --log-file mvn.log compile, java.class.path=/usr/local/Cellar/maven/3.5.4/libexec/boot/plexus-classworlds-2.5.2.jar, env.TERM_SESSION_ID=w0t0p0:3D20C438-C520-415D-B9A2-D8DE8FCF83BD, maven.version=3.5.4, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.os.patch.level=unknown, sun.cpu.endian=little, env.HOME=/Users/kunli, java.io.tmpdir=/var/folders/w2/xrmgy0q952l966l08vk2ythc0000gn/T/, maven.multiModuleProjectDirectory=/Users/kunli/AnypointStudio/workspace/maven-project, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.JMZyk4Ad3z/Listeners, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, os.arch=x86_64, java.ext.dirs=/Users/kunli/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, user.dir=/Users/kunli/AnypointStudio/workspace/maven-project, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.COLORTERM=truecolor, env.ITERM_PROFILE=Default, file.encoding=UTF-8, java.specification.version=1.8, env.MAVEN_PROJECTBASEDIR=/Users/kunli/AnypointStudio/workspace/maven-project, mule.tools.version=1.2}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory /Users/kunli/AnypointStudio/workspace/maven-project/src/main/resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 1 resource
+[DEBUG] Copying file log4j2.xml
+[DEBUG] file log4j2.xml has a filtered file extension
+[DEBUG] copy /Users/kunli/AnypointStudio/workspace/maven-project/src/main/resources/log4j2.xml to /Users/kunli/AnypointStudio/workspace/maven-project/target/classes/log4j2.xml
+[DEBUG] resource with targetPath null
+directory /Users/kunli/AnypointStudio/workspace/maven-project/src/main/app
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 3 resources
+[DEBUG] Copying file maven-project.xml
+[DEBUG] file maven-project.xml has a filtered file extension
+[DEBUG] copy /Users/kunli/AnypointStudio/workspace/maven-project/src/main/app/maven-project.xml to /Users/kunli/AnypointStudio/workspace/maven-project/target/classes/maven-project.xml
+[DEBUG] Copying file mule-deploy.properties
+[DEBUG] file mule-deploy.properties has a filtered file extension
+[DEBUG] copy /Users/kunli/AnypointStudio/workspace/maven-project/src/main/app/mule-deploy.properties to /Users/kunli/AnypointStudio/workspace/maven-project/target/classes/mule-deploy.properties
+[DEBUG] Copying file mule-app.properties
+[DEBUG] file mule-app.properties has a filtered file extension
+[DEBUG] copy /Users/kunli/AnypointStudio/workspace/maven-project/src/main/app/mule-app.properties to /Users/kunli/AnypointStudio/workspace/maven-project/target/classes/mule-app.properties
+[DEBUG] resource with targetPath null
+directory /Users/kunli/AnypointStudio/workspace/maven-project/src/main/api
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 0 resource
+[DEBUG] resource with targetPath null
+directory /Users/kunli/AnypointStudio/workspace/maven-project/mappings
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /Users/kunli/AnypointStudio/workspace/maven-project/mappings
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- mule-app-maven-plugin:1.2:filter-resources (default-filter-resources) @ maven-project ---
+[DEBUG] Configuring mojo org.mule.tools.maven:mule-app-maven-plugin:1.2:filter-resources from plugin realm ClassRealm[extension>org.mule.tools.maven:mule-app-maven-plugin:1.2, parent: sun.misc.Launcher$AppClassLoader@55f96302]
+[DEBUG] Configuring mojo 'org.mule.tools.maven:mule-app-maven-plugin:1.2:filter-resources' with basic configurator -->
+[DEBUG]   (f) apiDirectory = /Users/kunli/AnypointStudio/workspace/maven-project/src/main/api
+[DEBUG]   (f) appDirectory = /Users/kunli/AnypointStudio/workspace/maven-project/src/main/app
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (f) filterAppDirectory = false
+[DEBUG]   (f) filters = []
+[DEBUG]   (f) finalName = maven-project-1.0.0-SNAPSHOT
+[DEBUG]   (f) mappingsDirectory = /Users/kunli/AnypointStudio/workspace/maven-project/mappings
+[DEBUG]   (f) outputDirectory = /Users/kunli/AnypointStudio/workspace/maven-project/target
+[DEBUG]   (f) project = MavenProject: com.mulesoft.training:maven-project:1.0.0-SNAPSHOT @ /Users/kunli/AnypointStudio/workspace/maven-project/pom.xml
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@2e3cdec2
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG] -- end configuration --
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ maven-project ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=91597, ConflictMarker.markTime=51108, ConflictMarker.nodeCount=117, ConflictIdSorter.graphTime=36939, ConflictIdSorter.topsortTime=41670, ConflictIdSorter.conflictIdCount=44, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=684812, ConflictResolver.conflictItemCount=71, DefaultDependencyCollector.collectTime=88824812, DefaultDependencyCollector.transformTime=924153}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.6.1:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:2.0.4:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.6:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.1.0:compile
+[DEBUG]       commons-io:commons-io:jar:2.5:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]    org.ow2.asm:asm:jar:6.0_ALPHA:compile
+[DEBUG]    com.thoughtworks.qdox:qdox:jar:2.0-M5:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.8.1:runtime
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.6.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.6.1
+[DEBUG]   Imported:  < project>com.mulesoft.training:maven-project:1.0.0-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.6.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.6.1
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.4
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.6
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.1.0
+[DEBUG]   Included: commons-io:commons-io:jar:2.5
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.ow2.asm:asm:jar:6.0_ALPHA
+[DEBUG]   Included: com.thoughtworks.qdox:qdox:jar:2.0-M5
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.8.1
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.6.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.6.1, parent: sun.misc.Launcher$AppClassLoader@55f96302]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.6.1:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /Users/kunli/AnypointStudio/workspace/maven-project
+[DEBUG]   (f) buildDirectory = /Users/kunli/AnypointStudio/workspace/maven-project/target
+[DEBUG]   (f) compilePath = [/Users/kunli/AnypointStudio/workspace/maven-project/target/classes, /Users/kunli/.m2/repository/com/mulesoft/muleesb/mule-core-ee/3.9.0/mule-core-ee-3.9.0.jar, /Users/kunli/.m2/repository/org/mule/mule-core/3.9.0/mule-core-3.9.0.jar, /Users/kunli/.m2/repository/org/mule/extensions/mule-extensions-api/1.0.0-alpha-1/mule-extensions-api-1.0.0-alpha-1.jar, /Users/kunli/.m2/repository/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar, /Users/kunli/.m2/repository/com/github/stephenc/eaio-uuid/uuid/3.4.0/uuid-3.4.0.jar, /Users/kunli/.m2/repository/com/github/stephenc/eaio-grabbag/grabbag/1.8.1/grabbag-1.8.1.jar, /Users/kunli/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar, /Users/kunli/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar, /Users/kunli/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar, /Users/kunli/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar, /Users/kunli/.m2/repository/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6.jar, /Users/kunli/.m2/repository/commons-pool/commons-pool/1.6/commons-pool-1.6.jar, /Users/kunli/.m2/repository/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar, /Users/kunli/.m2/repository/org/apache/geronimo/specs/geronimo-j2ee-connector_1.5_spec/2.0.0/geronimo-j2ee-connector_1.5_spec-2.0.0.jar, /Users/kunli/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar, /Users/kunli/.m2/repository/com/lmax/disruptor/3.3.0/disruptor-3.3.0.jar, /Users/kunli/.m2/repository/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar, /Users/kunli/.m2/repository/org/apache/logging/log4j/log4j-api/2.8.2/log4j-api-2.8.2.jar, /Users/kunli/.m2/repository/org/apache/logging/log4j/log4j-core/2.8.2/log4j-core-2.8.2.jar, /Users/kunli/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.8.2/log4j-slf4j-impl-2.8.2.jar, /Users/kunli/.m2/repository/org/apache/logging/log4j/log4j-1.2-api/2.8.2/log4j-1.2-api-2.8.2.jar, /Users/kunli/.m2/repository/org/apache/logging/log4j/log4j-jcl/2.8.2/log4j-jcl-2.8.2.jar, /Users/kunli/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar, /Users/kunli/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.24/jcl-over-slf4j-1.7.24.jar, /Users/kunli/.m2/repository/org/apache/logging/log4j/log4j-jul/2.8.2/log4j-jul-2.8.2.jar, /Users/kunli/.m2/repository/asm/asm/3.1/asm-3.1.jar, /Users/kunli/.m2/repository/asm/asm-commons/3.1/asm-commons-3.1.jar, /Users/kunli/.m2/repository/asm/asm-tree/3.1/asm-tree-3.1.jar, /Users/kunli/.m2/repository/org/mule/mvel/mule-mvel2/2.1.9-MULE-012/mule-mvel2-2.1.9-MULE-012.jar, /Users/kunli/.m2/repository/org/jgrapht/jgrapht-jdk1.5/0.7.3/jgrapht-jdk1.5-0.7.3.jar, /Users/kunli/.m2/repository/org/mule/common/mule-common/3.9.0/mule-common-3.9.0.jar, /Users/kunli/.m2/repository/org/mulesoft/xmlbeans/xmlbeans/2.6.3/xmlbeans-2.6.3.jar, /Users/kunli/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar, /Users/kunli/.m2/repository/org/json/json/20140107/json-20140107.jar, /Users/kunli/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.jar, /Users/kunli/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.jar, /Users/kunli/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar, /Users/kunli/.m2/repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar, /Users/kunli/.m2/repository/com/mulesoft/licm/licm/1.2.0/licm-1.2.0.jar, /Users/kunli/.m2/repository/de/schlichtherle/truelicense/1.29/truelicense-1.29.jar, /Users/kunli/.m2/repository/de/schlichtherle/truexml/1.29/truexml-1.29.jar, /Users/kunli/.m2/repository/opensymphony/propertyset/1.3/propertyset-1.3.jar, /Users/kunli/.m2/repository/opensymphony/oscore/2.2.4/oscore-2.2.4.jar, /Users/kunli/.m2/repository/org/aspectj/aspectjrt/1.8.5/aspectjrt-1.8.5.jar, /Users/kunli/.m2/repository/com/mulesoft/muleesb/modules/mule-module-spring-config-ee/3.9.0/mule-module-spring-config-ee-3.9.0.jar, /Users/kunli/.m2/repository/com/mulesoft/muleesb/modules/mule-module-multi-tx-ee/3.9.0/mule-module-multi-tx-ee-3.9.0.jar, /Users/kunli/.m2/repository/com/mulesoft/muleesb/modules/mule-module-xa-tx-ee/3.9.0/mule-module-xa-tx-ee-3.9.0.jar, /Users/kunli/.m2/repository/com/mulesoft/muleesb/modules/mule-module-cache-ee/3.9.0/mule-module-cache-ee-3.9.0.jar, /Users/kunli/.m2/repository/org/springframework/spring-context/4.1.9.RELEASE/spring-context-4.1.9.RELEASE.jar, /Users/kunli/.m2/repository/org/springframework/spring-core/4.1.9.RELEASE/spring-core-4.1.9.RELEASE.jar, /Users/kunli/.m2/repository/org/springframework/spring-expression/4.1.9.RELEASE/spring-expression-4.1.9.RELEASE.jar, /Users/kunli/.m2/repository/org/mule/transports/mule-transport-file/3.9.0/mule-transport-file-3.9.0.jar, /Users/kunli/.m2/repository/org/mule/transports/mule-transport-http/3.9.0/mule-transport-http-3.9.0.jar, /Users/kunli/.m2/repository/org/mule/transports/mule-transport-ssl/3.9.0/mule-transport-ssl-3.9.0.jar, /Users/kunli/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar, /Users/kunli/.m2/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar, /Users/kunli/.m2/repository/org/apache/tomcat/coyote/6.0.53/coyote-6.0.53.jar, /Users/kunli/.m2/repository/org/apache/tomcat/juli/6.0.53/juli-6.0.53.jar, /Users/kunli/.m2/repository/org/samba/jcifs/jcifs/1.3.3/jcifs-1.3.3.jar, /Users/kunli/.m2/repository/joda-time/joda-time/2.9.1/joda-time-2.9.1.jar, /Users/kunli/.m2/repository/com/mulesoft/muleesb/transports/mule-transport-jdbc-ee/3.9.0/mule-transport-jdbc-ee-3.9.0.jar, /Users/kunli/.m2/repository/org/mule/transports/mule-transport-jdbc/3.9.0/mule-transport-jdbc-3.9.0.jar, /Users/kunli/.m2/repository/com/experlog/xapool/1.5.0/xapool-1.5.0.jar, /Users/kunli/.m2/repository/net/sf/flatpack/flatpack/3.1.1/flatpack-3.1.1.jar, /Users/kunli/.m2/repository/org/jdom/jdom/1.1.3/jdom-1.1.3.jar, /Users/kunli/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar, /Users/kunli/.m2/repository/com/mulesoft/muleesb/transports/mule-transport-jms-ee/3.9.0/mule-transport-jms-ee-3.9.0.jar, /Users/kunli/.m2/repository/org/mule/transports/mule-transport-jms/3.9.0/mule-transport-jms-3.9.0.jar, /Users/kunli/.m2/repository/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.jar, /Users/kunli/.m2/repository/org/springframework/spring-jms/4.1.9.RELEASE/spring-jms-4.1.9.RELEASE.jar, /Users/kunli/.m2/repository/org/springframework/spring-messaging/4.1.9.RELEASE/spring-messaging-4.1.9.RELEASE.jar, /Users/kunli/.m2/repository/org/springframework/spring-tx/4.1.9.RELEASE/spring-tx-4.1.9.RELEASE.jar, /Users/kunli/.m2/repository/org/mule/transports/mule-transport-vm/3.9.0/mule-transport-vm-3.9.0.jar, /Users/kunli/.m2/repository/org/mule/modules/mule-module-scripting/3.9.0/mule-module-scripting-3.9.0.jar, /Users/kunli/.m2/repository/org/springframework/spring-aop/4.1.9.RELEASE/spring-aop-4.1.9.RELEASE.jar, /Users/kunli/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar, /Users/kunli/.m2/repository/org/mule/modules/mule-module-builders/3.9.0/mule-module-builders-3.9.0.jar, /Users/kunli/.m2/repository/org/springframework/spring-web/4.1.9.RELEASE/spring-web-4.1.9.RELEASE.jar, /Users/kunli/.m2/repository/org/codehaus/groovy/groovy-all/2.4.4/groovy-all-2.4.4-indy.jar, /Users/kunli/.m2/repository/org/python/jython-standalone/2.7.1b3/jython-standalone-2.7.1b3.jar, /Users/kunli/.m2/repository/javax/script/js-engine/1.1/js-engine-1.1-jdk14.jar, /Users/kunli/.m2/repository/org/mozilla/rhino/1.7R4/rhino-1.7R4.jar, /Users/kunli/.m2/repository/org/mule/modules/mule-module-scripting-jruby/3.9.0/mule-module-scripting-jruby-3.9.0.jar, /Users/kunli/.m2/repository/org/jruby/jruby-core/1.7.27/jruby-core-1.7.27.jar, /Users/kunli/.m2/repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar, /Users/kunli/.m2/repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar, /Users/kunli/.m2/repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar, /Users/kunli/.m2/repository/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.jar, /Users/kunli/.m2/repository/org/jruby/jruby-stdlib/1.7.27/jruby-stdlib-1.7.27.jar, /Users/kunli/.m2/repository/org/jruby/joni/joni/2.1.9/joni-2.1.9.jar, /Users/kunli/.m2/repository/com/github/jnr/jnr-netdb/1.1.2/jnr-netdb-1.1.2.jar, /Users/kunli/.m2/repository/com/github/jnr/jnr-enxio/0.9/jnr-enxio-0.9.jar, /Users/kunli/.m2/repository/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2.jar, /Users/kunli/.m2/repository/com/github/jnr/jnr-unixsocket/0.8/jnr-unixsocket-0.8.jar, /Users/kunli/.m2/repository/com/github/jnr/jnr-posix/3.0.27/jnr-posix-3.0.27.jar, /Users/kunli/.m2/repository/org/jruby/extras/bytelist/1.0.11/bytelist-1.0.11.jar, /Users/kunli/.m2/repository/com/github/jnr/jnr-constants/0.9.0/jnr-constants-0.9.0.jar, /Users/kunli/.m2/repository/org/jruby/jcodings/jcodings/1.0.16/jcodings-1.0.16.jar, /Users/kunli/.m2/repository/com/github/jnr/jnr-ffi/2.0.5/jnr-ffi-2.0.5.jar, /Users/kunli/.m2/repository/com/github/jnr/jffi/1.2.10/jffi-1.2.10.jar, /Users/kunli/.m2/repository/com/github/jnr/jffi/1.2.10/jffi-1.2.10-native.jar, /Users/kunli/.m2/repository/org/yaml/snakeyaml/1.15/snakeyaml-1.15.jar, /Users/kunli/.m2/repository/com/jcraft/jzlib/1.1.3/jzlib-1.1.3.jar, /Users/kunli/.m2/repository/com/headius/invokebinder/1.2/invokebinder-1.2.jar, /Users/kunli/.m2/repository/com/headius/options/1.3/options-1.3.jar, /Users/kunli/.m2/repository/com/martiansoftware/nailgun-server/0.9.1/nailgun-server-0.9.1.jar, /Users/kunli/.m2/repository/org/jruby/yecht/1.1/yecht-1.1-jruby.jar, /Users/kunli/.m2/repository/org/mule/modules/mule-module-xml/3.9.0/mule-module-xml-3.9.0.jar, /Users/kunli/.m2/repository/commons-jxpath/commons-jxpath/1.3/commons-jxpath-1.3.jar, /Users/kunli/.m2/repository/com/thoughtworks/xstream/xstream/1.4.10/xstream-1.4.10.jar, /Users/kunli/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar, /Users/kunli/.m2/repository/xpp3/xpp3_min/1.1.3.4.O/xpp3_min-1.1.3.4.O.jar, /Users/kunli/.m2/repository/org/codehaus/woodstox/woodstox-core-asl/4.4.1/woodstox-core-asl-4.4.1.jar, /Users/kunli/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar, /Users/kunli/.m2/repository/jaxen/jaxen/1.1.1/jaxen-1.1.1.jar, /Users/kunli/.m2/repository/jdom/jdom/1.0/jdom-1.0.jar, /Users/kunli/.m2/repository/net/java/dev/stax-utils/stax-utils/20080702/stax-utils-20080702.jar, /Users/kunli/.m2/repository/net/sf/saxon/Saxon-HE/9.6.0-10/Saxon-HE-9.6.0-10.jar, /Users/kunli/.m2/repository/net/sf/saxon/Saxon-HE/9.6.0-10/Saxon-HE-9.6.0-10-xqj.jar, /Users/kunli/.m2/repository/javax/xml/xquery/xqj-api/1.0/xqj-api-1.0.jar, /Users/kunli/.m2/repository/org/springframework/spring-beans/4.1.9.RELEASE/spring-beans-4.1.9.RELEASE.jar, /Users/kunli/.m2/repository/commons-dbutils/commons-dbutils/1.2/commons-dbutils-1.2.jar, /Users/kunli/.m2/repository/org/reflections/reflections/0.9.9/reflections-0.9.9.jar, /Users/kunli/.m2/repository/org/mule/modules/mule-module-http/3.9.0/mule-module-http-3.9.0.jar, /Users/kunli/.m2/repository/org/mule/transports/mule-transport-tcp/3.9.0/mule-transport-tcp-3.9.0.jar, /Users/kunli/.m2/repository/org/apache/geronimo/specs/geronimo-servlet_3.0_spec/1.0/geronimo-servlet_3.0_spec-1.0.jar, /Users/kunli/.m2/repository/org/glassfish/grizzly/grizzly-framework/2.3.33/grizzly-framework-2.3.33.jar, /Users/kunli/.m2/repository/org/glassfish/grizzly/grizzly-http-server/2.3.33/grizzly-http-server-2.3.33.jar, /Users/kunli/.m2/repository/org/glassfish/grizzly/grizzly-http/2.3.33/grizzly-http-2.3.33.jar, /Users/kunli/.m2/repository/org/glassfish/grizzly/connection-pool/2.3.33/connection-pool-2.3.33.jar, /Users/kunli/.m2/repository/javax/mail/mail/1.4.3/mail-1.4.3.jar, /Users/kunli/.m2/repository/org/glassfish/grizzly/grizzly-http-client/1.14/grizzly-http-client-1.14.jar, /Users/kunli/.m2/repository/org/glassfish/grizzly/grizzly-websockets/2.3.33/grizzly-websockets-2.3.33.jar, /Users/kunli/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar, /Users/kunli/.m2/repository/org/mule/modules/mule-module-spring-config/3.9.0/mule-module-spring-config-3.9.0.jar, /Users/kunli/.m2/repository/org/mule/modules/mule-module-annotations/3.9.0/mule-module-annotations-3.9.0.jar, /Users/kunli/.m2/repository/cglib/cglib-nodep/2.2/cglib-nodep-2.2.jar, /Users/kunli/.m2/repository/cglib/cglib/3.2.2/cglib-3.2.2.jar, /Users/kunli/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar, /Users/kunli/.m2/repository/org/apache/ant/ant/1.9.6/ant-1.9.6.jar, /Users/kunli/.m2/repository/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar]
+[DEBUG]   (f) compileSourceRoots = [/Users/kunli/AnypointStudio/workspace/maven-project/src/main/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) failOnWarning = false
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /Users/kunli/AnypointStudio/workspace/maven-project/target/generated-sources/annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.6.1:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /Users/kunli/AnypointStudio/workspace/maven-project/target/classes
+[DEBUG]   (f) project = MavenProject: com.mulesoft.training:maven-project:1.0.0-SNAPSHOT @ /Users/kunli/AnypointStudio/workspace/maven-project/pom.xml
+[DEBUG]   (f) projectArtifact = com.mulesoft.training:maven-project:mule:1.0.0-SNAPSHOT
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@2e3cdec2
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.5
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.5
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Adding /Users/kunli/AnypointStudio/workspace/maven-project/target/generated-sources/annotations to compile source roots:
+  /Users/kunli/AnypointStudio/workspace/maven-project/src/main/java
+[DEBUG] New compile source roots:
+  /Users/kunli/AnypointStudio/workspace/maven-project/src/main/java
+  /Users/kunli/AnypointStudio/workspace/maven-project/target/generated-sources/annotations
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[DEBUG] classpathElements: [/Users/kunli/AnypointStudio/workspace/maven-project/target/classes, /Users/kunli/.m2/repository/com/mulesoft/muleesb/mule-core-ee/3.9.0/mule-core-ee-3.9.0.jar, /Users/kunli/.m2/repository/org/mule/mule-core/3.9.0/mule-core-3.9.0.jar, /Users/kunli/.m2/repository/org/mule/extensions/mule-extensions-api/1.0.0-alpha-1/mule-extensions-api-1.0.0-alpha-1.jar, /Users/kunli/.m2/repository/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar, /Users/kunli/.m2/repository/com/github/stephenc/eaio-uuid/uuid/3.4.0/uuid-3.4.0.jar, /Users/kunli/.m2/repository/com/github/stephenc/eaio-grabbag/grabbag/1.8.1/grabbag-1.8.1.jar, /Users/kunli/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar, /Users/kunli/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar, /Users/kunli/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar, /Users/kunli/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar, /Users/kunli/.m2/repository/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6.jar, /Users/kunli/.m2/repository/commons-pool/commons-pool/1.6/commons-pool-1.6.jar, /Users/kunli/.m2/repository/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar, /Users/kunli/.m2/repository/org/apache/geronimo/specs/geronimo-j2ee-connector_1.5_spec/2.0.0/geronimo-j2ee-connector_1.5_spec-2.0.0.jar, /Users/kunli/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar, /Users/kunli/.m2/repository/com/lmax/disruptor/3.3.0/disruptor-3.3.0.jar, /Users/kunli/.m2/repository/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar, /Users/kunli/.m2/repository/org/apache/logging/log4j/log4j-api/2.8.2/log4j-api-2.8.2.jar, /Users/kunli/.m2/repository/org/apache/logging/log4j/log4j-core/2.8.2/log4j-core-2.8.2.jar, /Users/kunli/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.8.2/log4j-slf4j-impl-2.8.2.jar, /Users/kunli/.m2/repository/org/apache/logging/log4j/log4j-1.2-api/2.8.2/log4j-1.2-api-2.8.2.jar, /Users/kunli/.m2/repository/org/apache/logging/log4j/log4j-jcl/2.8.2/log4j-jcl-2.8.2.jar, /Users/kunli/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar, /Users/kunli/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.24/jcl-over-slf4j-1.7.24.jar, /Users/kunli/.m2/repository/org/apache/logging/log4j/log4j-jul/2.8.2/log4j-jul-2.8.2.jar, /Users/kunli/.m2/repository/asm/asm/3.1/asm-3.1.jar, /Users/kunli/.m2/repository/asm/asm-commons/3.1/asm-commons-3.1.jar, /Users/kunli/.m2/repository/asm/asm-tree/3.1/asm-tree-3.1.jar, /Users/kunli/.m2/repository/org/mule/mvel/mule-mvel2/2.1.9-MULE-012/mule-mvel2-2.1.9-MULE-012.jar, /Users/kunli/.m2/repository/org/jgrapht/jgrapht-jdk1.5/0.7.3/jgrapht-jdk1.5-0.7.3.jar, /Users/kunli/.m2/repository/org/mule/common/mule-common/3.9.0/mule-common-3.9.0.jar, /Users/kunli/.m2/repository/org/mulesoft/xmlbeans/xmlbeans/2.6.3/xmlbeans-2.6.3.jar, /Users/kunli/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar, /Users/kunli/.m2/repository/org/json/json/20140107/json-20140107.jar, /Users/kunli/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.jar, /Users/kunli/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.jar, /Users/kunli/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar, /Users/kunli/.m2/repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar, /Users/kunli/.m2/repository/com/mulesoft/licm/licm/1.2.0/licm-1.2.0.jar, /Users/kunli/.m2/repository/de/schlichtherle/truelicense/1.29/truelicense-1.29.jar, /Users/kunli/.m2/repository/de/schlichtherle/truexml/1.29/truexml-1.29.jar, /Users/kunli/.m2/repository/opensymphony/propertyset/1.3/propertyset-1.3.jar, /Users/kunli/.m2/repository/opensymphony/oscore/2.2.4/oscore-2.2.4.jar, /Users/kunli/.m2/repository/org/aspectj/aspectjrt/1.8.5/aspectjrt-1.8.5.jar, /Users/kunli/.m2/repository/com/mulesoft/muleesb/modules/mule-module-spring-config-ee/3.9.0/mule-module-spring-config-ee-3.9.0.jar, /Users/kunli/.m2/repository/com/mulesoft/muleesb/modules/mule-module-multi-tx-ee/3.9.0/mule-module-multi-tx-ee-3.9.0.jar, /Users/kunli/.m2/repository/com/mulesoft/muleesb/modules/mule-module-xa-tx-ee/3.9.0/mule-module-xa-tx-ee-3.9.0.jar, /Users/kunli/.m2/repository/com/mulesoft/muleesb/modules/mule-module-cache-ee/3.9.0/mule-module-cache-ee-3.9.0.jar, /Users/kunli/.m2/repository/org/springframework/spring-context/4.1.9.RELEASE/spring-context-4.1.9.RELEASE.jar, /Users/kunli/.m2/repository/org/springframework/spring-core/4.1.9.RELEASE/spring-core-4.1.9.RELEASE.jar, /Users/kunli/.m2/repository/org/springframework/spring-expression/4.1.9.RELEASE/spring-expression-4.1.9.RELEASE.jar, /Users/kunli/.m2/repository/org/mule/transports/mule-transport-file/3.9.0/mule-transport-file-3.9.0.jar, /Users/kunli/.m2/repository/org/mule/transports/mule-transport-http/3.9.0/mule-transport-http-3.9.0.jar, /Users/kunli/.m2/repository/org/mule/transports/mule-transport-ssl/3.9.0/mule-transport-ssl-3.9.0.jar, /Users/kunli/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar, /Users/kunli/.m2/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar, /Users/kunli/.m2/repository/org/apache/tomcat/coyote/6.0.53/coyote-6.0.53.jar, /Users/kunli/.m2/repository/org/apache/tomcat/juli/6.0.53/juli-6.0.53.jar, /Users/kunli/.m2/repository/org/samba/jcifs/jcifs/1.3.3/jcifs-1.3.3.jar, /Users/kunli/.m2/repository/joda-time/joda-time/2.9.1/joda-time-2.9.1.jar, /Users/kunli/.m2/repository/com/mulesoft/muleesb/transports/mule-transport-jdbc-ee/3.9.0/mule-transport-jdbc-ee-3.9.0.jar, /Users/kunli/.m2/repository/org/mule/transports/mule-transport-jdbc/3.9.0/mule-transport-jdbc-3.9.0.jar, /Users/kunli/.m2/repository/com/experlog/xapool/1.5.0/xapool-1.5.0.jar, /Users/kunli/.m2/repository/net/sf/flatpack/flatpack/3.1.1/flatpack-3.1.1.jar, /Users/kunli/.m2/repository/org/jdom/jdom/1.1.3/jdom-1.1.3.jar, /Users/kunli/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar, /Users/kunli/.m2/repository/com/mulesoft/muleesb/transports/mule-transport-jms-ee/3.9.0/mule-transport-jms-ee-3.9.0.jar, /Users/kunli/.m2/repository/org/mule/transports/mule-transport-jms/3.9.0/mule-transport-jms-3.9.0.jar, /Users/kunli/.m2/repository/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.jar, /Users/kunli/.m2/repository/org/springframework/spring-jms/4.1.9.RELEASE/spring-jms-4.1.9.RELEASE.jar, /Users/kunli/.m2/repository/org/springframework/spring-messaging/4.1.9.RELEASE/spring-messaging-4.1.9.RELEASE.jar, /Users/kunli/.m2/repository/org/springframework/spring-tx/4.1.9.RELEASE/spring-tx-4.1.9.RELEASE.jar, /Users/kunli/.m2/repository/org/mule/transports/mule-transport-vm/3.9.0/mule-transport-vm-3.9.0.jar, /Users/kunli/.m2/repository/org/mule/modules/mule-module-scripting/3.9.0/mule-module-scripting-3.9.0.jar, /Users/kunli/.m2/repository/org/springframework/spring-aop/4.1.9.RELEASE/spring-aop-4.1.9.RELEASE.jar, /Users/kunli/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar, /Users/kunli/.m2/repository/org/mule/modules/mule-module-builders/3.9.0/mule-module-builders-3.9.0.jar, /Users/kunli/.m2/repository/org/springframework/spring-web/4.1.9.RELEASE/spring-web-4.1.9.RELEASE.jar, /Users/kunli/.m2/repository/org/codehaus/groovy/groovy-all/2.4.4/groovy-all-2.4.4-indy.jar, /Users/kunli/.m2/repository/org/python/jython-standalone/2.7.1b3/jython-standalone-2.7.1b3.jar, /Users/kunli/.m2/repository/javax/script/js-engine/1.1/js-engine-1.1-jdk14.jar, /Users/kunli/.m2/repository/org/mozilla/rhino/1.7R4/rhino-1.7R4.jar, /Users/kunli/.m2/repository/org/mule/modules/mule-module-scripting-jruby/3.9.0/mule-module-scripting-jruby-3.9.0.jar, /Users/kunli/.m2/repository/org/jruby/jruby-core/1.7.27/jruby-core-1.7.27.jar, /Users/kunli/.m2/repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar, /Users/kunli/.m2/repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar, /Users/kunli/.m2/repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar, /Users/kunli/.m2/repository/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.jar, /Users/kunli/.m2/repository/org/jruby/jruby-stdlib/1.7.27/jruby-stdlib-1.7.27.jar, /Users/kunli/.m2/repository/org/jruby/joni/joni/2.1.9/joni-2.1.9.jar, /Users/kunli/.m2/repository/com/github/jnr/jnr-netdb/1.1.2/jnr-netdb-1.1.2.jar, /Users/kunli/.m2/repository/com/github/jnr/jnr-enxio/0.9/jnr-enxio-0.9.jar, /Users/kunli/.m2/repository/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2.jar, /Users/kunli/.m2/repository/com/github/jnr/jnr-unixsocket/0.8/jnr-unixsocket-0.8.jar, /Users/kunli/.m2/repository/com/github/jnr/jnr-posix/3.0.27/jnr-posix-3.0.27.jar, /Users/kunli/.m2/repository/org/jruby/extras/bytelist/1.0.11/bytelist-1.0.11.jar, /Users/kunli/.m2/repository/com/github/jnr/jnr-constants/0.9.0/jnr-constants-0.9.0.jar, /Users/kunli/.m2/repository/org/jruby/jcodings/jcodings/1.0.16/jcodings-1.0.16.jar, /Users/kunli/.m2/repository/com/github/jnr/jnr-ffi/2.0.5/jnr-ffi-2.0.5.jar, /Users/kunli/.m2/repository/com/github/jnr/jffi/1.2.10/jffi-1.2.10.jar, /Users/kunli/.m2/repository/com/github/jnr/jffi/1.2.10/jffi-1.2.10-native.jar, /Users/kunli/.m2/repository/org/yaml/snakeyaml/1.15/snakeyaml-1.15.jar, /Users/kunli/.m2/repository/com/jcraft/jzlib/1.1.3/jzlib-1.1.3.jar, /Users/kunli/.m2/repository/com/headius/invokebinder/1.2/invokebinder-1.2.jar, /Users/kunli/.m2/repository/com/headius/options/1.3/options-1.3.jar, /Users/kunli/.m2/repository/com/martiansoftware/nailgun-server/0.9.1/nailgun-server-0.9.1.jar, /Users/kunli/.m2/repository/org/jruby/yecht/1.1/yecht-1.1-jruby.jar, /Users/kunli/.m2/repository/org/mule/modules/mule-module-xml/3.9.0/mule-module-xml-3.9.0.jar, /Users/kunli/.m2/repository/commons-jxpath/commons-jxpath/1.3/commons-jxpath-1.3.jar, /Users/kunli/.m2/repository/com/thoughtworks/xstream/xstream/1.4.10/xstream-1.4.10.jar, /Users/kunli/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar, /Users/kunli/.m2/repository/xpp3/xpp3_min/1.1.3.4.O/xpp3_min-1.1.3.4.O.jar, /Users/kunli/.m2/repository/org/codehaus/woodstox/woodstox-core-asl/4.4.1/woodstox-core-asl-4.4.1.jar, /Users/kunli/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar, /Users/kunli/.m2/repository/jaxen/jaxen/1.1.1/jaxen-1.1.1.jar, /Users/kunli/.m2/repository/jdom/jdom/1.0/jdom-1.0.jar, /Users/kunli/.m2/repository/net/java/dev/stax-utils/stax-utils/20080702/stax-utils-20080702.jar, /Users/kunli/.m2/repository/net/sf/saxon/Saxon-HE/9.6.0-10/Saxon-HE-9.6.0-10.jar, /Users/kunli/.m2/repository/net/sf/saxon/Saxon-HE/9.6.0-10/Saxon-HE-9.6.0-10-xqj.jar, /Users/kunli/.m2/repository/javax/xml/xquery/xqj-api/1.0/xqj-api-1.0.jar, /Users/kunli/.m2/repository/org/springframework/spring-beans/4.1.9.RELEASE/spring-beans-4.1.9.RELEASE.jar, /Users/kunli/.m2/repository/commons-dbutils/commons-dbutils/1.2/commons-dbutils-1.2.jar, /Users/kunli/.m2/repository/org/reflections/reflections/0.9.9/reflections-0.9.9.jar, /Users/kunli/.m2/repository/org/mule/modules/mule-module-http/3.9.0/mule-module-http-3.9.0.jar, /Users/kunli/.m2/repository/org/mule/transports/mule-transport-tcp/3.9.0/mule-transport-tcp-3.9.0.jar, /Users/kunli/.m2/repository/org/apache/geronimo/specs/geronimo-servlet_3.0_spec/1.0/geronimo-servlet_3.0_spec-1.0.jar, /Users/kunli/.m2/repository/org/glassfish/grizzly/grizzly-framework/2.3.33/grizzly-framework-2.3.33.jar, /Users/kunli/.m2/repository/org/glassfish/grizzly/grizzly-http-server/2.3.33/grizzly-http-server-2.3.33.jar, /Users/kunli/.m2/repository/org/glassfish/grizzly/grizzly-http/2.3.33/grizzly-http-2.3.33.jar, /Users/kunli/.m2/repository/org/glassfish/grizzly/connection-pool/2.3.33/connection-pool-2.3.33.jar, /Users/kunli/.m2/repository/javax/mail/mail/1.4.3/mail-1.4.3.jar, /Users/kunli/.m2/repository/org/glassfish/grizzly/grizzly-http-client/1.14/grizzly-http-client-1.14.jar, /Users/kunli/.m2/repository/org/glassfish/grizzly/grizzly-websockets/2.3.33/grizzly-websockets-2.3.33.jar, /Users/kunli/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar, /Users/kunli/.m2/repository/org/mule/modules/mule-module-spring-config/3.9.0/mule-module-spring-config-3.9.0.jar, /Users/kunli/.m2/repository/org/mule/modules/mule-module-annotations/3.9.0/mule-module-annotations-3.9.0.jar, /Users/kunli/.m2/repository/cglib/cglib-nodep/2.2/cglib-nodep-2.2.jar, /Users/kunli/.m2/repository/cglib/cglib/3.2.2/cglib-3.2.2.jar, /Users/kunli/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar, /Users/kunli/.m2/repository/org/apache/ant/ant/1.9.6/ant-1.9.6.jar, /Users/kunli/.m2/repository/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar]
+[INFO] Nothing to compile - all classes are up to date
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.840 s
+[INFO] Finished at: 2018-07-16T15:54:47-04:00
+[INFO] ------------------------------------------------------------------------
